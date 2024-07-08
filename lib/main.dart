@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_provider_example/providers/counts.dart';
+import 'package:flutter_provider_example/widgets/counter.dart';
 import 'package:provider/provider.dart'; // 생성한 전역 상태를 사용하기 위해 flutter_proivder 패키지와 상태 클래스를 import해서 불러옴
 import 'package:provider_example/providers/counts.dart';
 import 'package:provider_example/widgets/buttons.dart';
@@ -56,7 +57,7 @@ class Home extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              //Counter(),
+              Counter(),
               //Buttons(),
             ],
           ),
