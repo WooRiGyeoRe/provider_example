@@ -15,7 +15,7 @@ class Counts with ChangeNotifier {
     _count++;
     notifyListeners();
     // 변수를 수정했다면? --->  (★중요) notifyListeners()를 실행해 데이터가 갱신됨을 알려줌!
-    // Stateful Widget에서 값이 변경되었음을 알리기 위해 setState 함수를 사용하는 것과 동일한 원리
+    // Stateful Widget에서 값이 변경되었 음을 알리기 위해 setState 함수를 사용하는 것과 동일한 원리
     // notifyListeners()를 실행하지 않으면? => 다른 위젯들에서 해당 값이 변경되었는지 인식하지 못함
   }
 

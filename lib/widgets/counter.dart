@@ -24,7 +24,7 @@ class Counter extends StatelessWidget {
       // => Provider의 count 값이 변경되는지 감시하고, 변경이 있으면 화면에 변경된 값을 표시
       // 해석하면?
       // => provider 패키지를 사용해 Counts 객체를 구독(watch)하고,
-      //    Counts 객체의 상태가 변경될 때마다 build 메서드가 다시 호출
+      //    Counts 객체의 상태가 변경될 때마다 build 메서드가 다시 호출 (re-build가 발생하고 위젯이 새로운 값과 함께 다시 표시ehla)
       context.watch<Counts>().count.toString(),
       style: const TextStyle(
         fontSize: 20,
