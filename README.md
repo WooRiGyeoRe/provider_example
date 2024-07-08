@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # flutter_provider_example
 
 A new Flutter project.
@@ -18,3 +19,6 @@ samples, guidance on mobile development, and a full API reference.
 =======
 # provider_example
 >>>>>>> 249c3e0d46f9b43a934f55fdd082dcddcb988a14
+=======
+# provider_example
+>>>>>>> 94d97de60d96ea04368e8a8230e0a0363a474258
