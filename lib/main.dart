@@ -56,8 +56,8 @@ class Home extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Counter(),
-              Buttons(),
+              //Counter(),
+              //Buttons(),
             ],
           ),
         ),
