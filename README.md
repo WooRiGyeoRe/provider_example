@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # flutter_provider_example
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# provider_example
+>>>>>>> 249c3e0d46f9b43a934f55fdd082dcddcb988a14

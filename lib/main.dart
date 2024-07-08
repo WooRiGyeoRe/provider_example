@@ -52,7 +52,7 @@ class Home extends StatelessWidget {
       ),
       body: ChangeNotifierProvider(
         create: (BuildContext context) => Counts(),
-        child: Center(
+        child: const Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
